@@ -74,8 +74,6 @@ with dpg.window(tag="main window"):
                     print(x_series)
                     for pick, index in enumerate(x_series):
                         if y_series[index] == y_series2[index]:
-                            if pick==0:
-                                return
                             result = x_series[index]
                             print(x_series[index])
                             print(y_series[index] == y_series2[index])
