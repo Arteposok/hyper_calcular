@@ -84,8 +84,8 @@ with dpg.window(tag="main window"):
 
             dpg.add_input_text(label="formula 1", tag="f1", width=250, default_value="x")
             dpg.add_input_text(label="formula 2", tag="f2", width=250, default_value="x")
-            dpg.add_checkbox(label="equation mode", tag="eqM", default_value=True)
-            dpg.add_button(label="calculate the calculation", callback=update_lines)
+            dpg.add_checkbox(label="find intersection", tag="eqM", default_value=True)
+            dpg.add_button(label="plot and solve", callback=update_lines)
             dpg.add_text("custom variables/expressions")
             dpg.add_input_text(label="a", tag="a", width=250, default_value="0")
             dpg.add_input_text(label="b", tag="b", width=250, default_value="0")
