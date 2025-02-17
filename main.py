@@ -71,13 +71,9 @@ with dpg.window(tag="main window"):
                 dpg.set_value("line2", (x_series, y_series2))
                 if eqM:
                     result = -1
-                    print(x_series)
                     for pick, index in enumerate(x_series):
                         if y_series[index] == y_series2[index]:
                             result = x_series[index]
-                            print(x_series[index])
-                            print(y_series[index] == y_series2[index])
-                            print(y_series[index], " ",y_series2[index])
                             break
                     dpg.set_value("res", result)
                     with dpg.window() as modal:
