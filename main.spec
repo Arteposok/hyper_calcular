@@ -2,10 +2,10 @@
 
 
 a = Analysis(
-    ['C:\\Projects\\ActualProjetcs\\hyper_calcular\\main.py'],
+    ['C:\\Users\\Artem\\OneDrive\\Рабочий стол\\hyper_calcular\\main.py'],
     pathex=[],
     binaries=[],
-    datas=[('C:\\Projects\\ActualProjetcs\\hyper_calcular\\font.ttf', '.'), ('C:\\Projects\\ActualProjetcs\\hyper_calcular\\bold.ttf', '.')],
+    datas=[('C:\\Users\\Artem\\OneDrive\\Рабочий стол\\hyper_calcular\\bold.ttf', '.'), ('C:\\Users\\Artem\\OneDrive\\Рабочий стол\\hyper_calcular\\font.ttf', '.')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
