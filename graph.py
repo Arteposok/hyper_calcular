@@ -5,7 +5,7 @@ from math import *
 
 dpg.create_context()
 dpg.setup_dearpygui()
-dpg.create_viewport(width=800, height=520)
+dpg.create_viewport(width=800, height=520, title="graph")
 with dpg.font_registry():
     try:
         base=sys._MEIPASS
